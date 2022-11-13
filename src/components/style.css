@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 6%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(81,71,100,0.61);
+
+}
+.navbar-list{
+  display: flex;
+}
+.navbar-list li{
+  list-style: none;
+}
+.navbar-list li a{
+  display: block;
+  text-decoration: none;
+  font-size: 23px;
+  padding-right: 15px;
+}
+.navbar-list li a:hover{
+  color: crimson;
+}
+.cart-bag{
+  font-size: 28px;
+  cursor: pointer;
+}
+.cart-bag span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: crimson;
+}
+/* produxcts  */
+
+.products{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 7%;
+
+}
+.products .cart{
+   flex-basis: 23.33%;
+   height: 280px;
+   padding: 30px;
+   text-align: center;
+   margin-bottom: 30px;
+   background-color: #fff;
+   box-shadow: 0px 0px 10px 0px rgba(81,71,100,0.61);
+}
+.products .cart img{
+  height: 90px;
+}
+.button{
+  border: 0;
+  outline: none;
+  padding: 9px 28px;
+  background-color: rgb(255, 255, 0);
+  color: #000;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* cart    */
+/* .card{
+  padding: 20px;
+  background-color: darkorange;
+}
+.card-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: cornflowerblue;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 40px;
+  text-align: left;
+
+}
+.card-box img{
+  height: 90px;
+} */
+/* .cartQunatity{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0px 30px;
+  cursor: pointer;
+
+}
+.totalQunatity{
+  padding: 10px 20px;
+} */
+
+/* ---------------cart design  ------------------------- */
+.cartt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 6%;
+}
+.productWrapper{
+  text-align: left;
+  width: 100%;
+}
+.productWrapper .card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: cornflowerblue;
+  padding: 10px;
+  text-align: left;
+}
+.productWrapper .card img{
+  height: 90px;
+  width: 130px;
+}
+.cartdetails{
+  text-align: left;
+}
+.cartdetails h3{
+  width: 300px;
+}
+.cartQuantity{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+button{
+  border: 0;
+  outline: none;
+  padding: 10px;
+  background: none;
+
+}
+.cart-summary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cart-checkout{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.subtotal{
+  display: flex;
+  justify-content: space-between;
+}
+.shoping{
+  text-align: center;
+}
